@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,400italic,500,700,300italic);
+
+#description p{
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5;
+   color: black;
+  padding-top: 10px;
+}
+
+b{
+  color:#c30216;
+  font-weight:500;
+}
+
+#description h1{
+   font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+	font-size: 36px;
+	line-height: 1.5;
+  color: black;
+  padding-bottom: 15px;
+}
+
+.thumbs h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5;
+   color: #c30216;
+  padding-top: 10px;
+}
+
+.icons h2{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5;
+   color: #c30216;
+  padding-top: 10px;
+}
+
+.thumbs h3{
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 300;
+	font-size: 12px;
+	line-height: 1.5;
+   color: black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.icons h3{
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 300;
+	font-size: 12px;
+	line-height: 1.5;
+   color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.thumbs a{
+  text-decoration: none;
+  color:black;
+}
+
+.thumbs a:hover{
+  color: #c30216;
+}
+
+.thumbs  li{
+list-style-type:none;
+  
+}
+
+.thumbs  li a{
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 600;
+	font-size: 13.5px;
+	line-height: 1.5;
+   color: black;
+  padding-top: 15px;
+  vertical-align: text-bottom;
+  list-style-type:none;
+}
+
+.icons li{
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 500;
+	font-size: 12px;
+	line-height: 1.3;
+   color: black;
+  padding-top: 10px;
+  vertical-align: text-bottom;
+}
+
+#gallery hr{
+  
+   margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#container{
+  max-width: 960px;
+  margin:0 auto;
+}
+
+#description{
+  width: 780px;
+ padding-top: 50px;
+  margin:0 auto;
+}
+
+#gallery{
+padding-top:10px;
+  max-width:100%;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.thumbs{
+  width: 250px;
+  margin: 0 auto;
+  display: inline-block;
+  padding:15px;
+  padding-top:50px;
+  vertical-align: top;
+}
+
+.icons{
+  width: 250px;
+  margin: 0 auto;
+  display: inline-block;
+  padding:15px;
+  padding-top:50px;
+  vertical-align: top;
+}
+
+.thumbs img{   
+    transition: opacity .9s;
+}
+
+.thumbs img:hover {
+    opacity: .6;
+}
